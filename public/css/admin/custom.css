@@ -1,0 +1,177 @@
+/*------------------------- Left Menu start-----------------------------*/
+
+.left-bar {
+    background-color: #F5F5F5;
+}
+
+.nav-left a {
+    border-radius: 0 !important;
+}
+
+.left-bar-menu-ul {
+    padding: 0;
+}
+
+.left-bar-menu-ul li {
+    list-style-type: none;
+    display: block;
+    padding: 4px 0 4px 4px;
+}
+
+.panel-body-custom {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.dashboard-link {
+    margin: 4px;
+    font-size: 14px;
+    color: #000;
+    text-decoration: none;
+}
+
+.dashboard-link:hover {
+    color: #555;
+}
+
+.left-bar .panel-title {
+    font-size: 13px;
+}
+
+.left-bar .panel-title:hover {
+    color: #888;
+}
+
+.left-bar-menu-ul li a {
+    font-size: 12px;
+}
+
+.borderForNav li {
+    border-bottom: 1px solid #ddd;
+}
+
+
+/*------------------------- Left Menu end-----------------------------*/
+
+
+/* ............for delete button start...................*/
+
+.delete-form {
+    display: inline;
+}
+
+.delete-form input[type=submit] {
+    width: 20px;
+}
+
+
+/* ............for delete button end...................*/
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+.help {
+    font-size: 22px;
+    color: #F97C09;
+}
+
+.required:after {
+    content: '*';
+    color: red;
+    padding-left: 5px;
+}
+
+.comments {
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #333;
+    display: block;
+    line-height: 1.42857;
+    padding: 9.5px;
+}
+
+.indicator-tilte {
+    font-size: 14px;
+    background-color: #eee;
+}
+
+a.indicator-title-dashboard > p:hover {
+    color: red;
+}
+
+.badge-notify {
+    background: #FB791E;
+}
+
+.address-font-size {
+    font-size: 15px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: normal;
+}
+
+tr.spaceUnder > td {
+    padding-bottom: 1em;
+}
+
+.partnersinfo {
+    color: #F97222 !important;
+}
+
+.partnerBackground {
+    background-color: #FFC000 !important;
+    font-weight: bold;
+}
+
+#usersLists {
+    width: 200px;
+    border: 1px solid #ddd;
+}
+
+.delete-form input[type='submit']::before {
+    font-family: 'Glyphicons Halflings';
+    content: "";
+    display: inline-block;
+}
+
+
+/*for delete button*/
+
+.btn-xs,
+.btn-group-xs > .btn {
+    padding: 0 2px;
+}
+
+.preview-div {
+    min-height: 70px;
+}
+
+
+/*Icon modal*/
+
+.icon-container li {
+    margin: 15px 6px;
+    border: 2px solid #dddddd;
+    display: inline-block;
+    -webkit-transition: all ease 0.50s;
+    -moz-transition: all ease 0.50s;
+    transition: all ease 0.50s;
+    cursor: pointer;
+}
+
+.icon-container li:hover {
+    border: 2px solid #555555;
+}
+
+.icon-container li img {
+    width: auto;
+    height: 25px;
+}
+.featur-modal-dialog{
+    width: 351px !important;
+}
